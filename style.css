@@ -1,0 +1,141 @@
+body{
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 18px;
+    margin: 0px;
+}
+.clipboard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("./images/bg-header-desktop.png");
+}
+.bkg-desktop{
+    margin: 18px 215px;
+}
+.first-paragraph{
+    width: 540px;
+    text-align: center;
+}
+.buttons{
+    display: grid;
+    grid-template-columns: 250px 250px;
+    gap: 15px;
+    justify-content: center;
+    margin: 15px 0px 45px 0px;
+}
+.ios{
+    padding: 15px;
+    border-radius: 30px;
+    background-color: hsl(171, 66%, 44%);
+    border: none;
+    color: white;
+    box-shadow: 0px 3px hsl(171, 72%, 30%);
+    cursor: pointer;
+}
+.mac{
+    padding: 15px;
+    border-radius: 30px;
+    background-color:  hsl(233, 100%, 69%);
+    box-shadow: 0px 3px hsl(233, 55%, 45%);
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.track{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.second-paragraph{
+    width: 700px;
+    text-align: center;
+}
+.mac-img{
+    width: 1340px;
+    margin-top: 20px;
+    margin-right: 65px;
+}  
+.mac-img img{
+    width: 680px;
+    margin: 25px 10px;
+}
+.title{
+    float: right;
+}
+.right-text{
+    margin: 55px 115px;
+    width: 380px;
+}
+.access{
+    text-align: center;
+}
+.supercharge{
+    text-align: center;
+    margin: 25px;
+}
+.midle-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+}
+.blacklist{
+    width: 380px;
+    text-align: center;
+    margin: 50px 0px;
+}
+.snippets{
+    width: 350px;
+    text-align: center;
+    margin: 60px 0px;
+}
+.preview{
+    width: 350px;
+    text-align: center;
+    margin: 60px 0px;
+}
+.big-techs{
+    display: flex;
+    justify-content: space-around;
+    margin: 15px 0px;
+    height: 6vh;
+}
+.clip{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 85px;
+}
+.paragraph-bottom{
+    width: 680px;
+    text-align: center;
+}
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 25px;
+}
+.footer .logo{
+    width: 40px;
+    height: 40px;
+    align-self: center;
+}
+.links{
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: hsl(171, 66%, 44%);
+}
+.icons{
+    align-self: center;
+}
+.icons img{
+    width: 20px;
+    height: 20px;
+    margin: 8px;
+}
